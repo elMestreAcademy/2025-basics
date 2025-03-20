@@ -1,8 +1,7 @@
-#                       0      10    "Lengua"
 def introducir_nota(abajo, arriba, concepto):
     nota = None
     equivocado = False
-    #     (False(float)) or (    False   ) or (   False  )
+
     while (nota is None) or (nota < abajo) or (nota > arriba):
         if equivocado:
             print("Introduce un número comprendido entre " + str(abajo) + " y " + str(arriba))
